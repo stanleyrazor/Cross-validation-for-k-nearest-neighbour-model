@@ -1,6 +1,6 @@
 # knn leave one out function ----------------------------------------------
 
-knn_validation <- function(train_dataset, train_lab, k_range)
+nn_loocv <- function(train_dataset, train_lab, k_range)
 {
   validation_train <- train_dataset
   v_tbl <- data.frame()
